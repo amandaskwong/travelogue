@@ -1,0 +1,25 @@
+header {
+}
+
+body {
+    background-color: pink;
+}
+
+section {
+    background-color: antiquewhite;
+    align-items: ;
+    padding: 1em;
+    margin: 1em;
+    overflow: auto;
+}
+
+#venice {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+#veniceIMG {
+    object-fit: contain;
+    max-width: 50%;
+}
