@@ -4,19 +4,24 @@
 }
 
 body {
-    background-color: pink;
+    background-color: #ffffff;
+    background: linear-gradient(to top, #cccac4 1px, transparent 1px), linear-gradient(to right, #cccac4 1px, transparent 1px);
+    background-size: 50px 50px;
     font-family: "Poppins", 'Courier New', Courier, monospace;
-    display: flex;
 }
 
 header {
     font-family: "Playwrite IN", 'Courier New', Courier, monospace;
-    background-color: antiquewhite;
     padding: 1em;
+    background-color: rgb(221, 189, 230);
 }
 
 h1 {
     text-align: center;
+}
+
+h2 {
+    font-family: "Playwrite IN", 'Courier New', Courier, monospace;
 }
 
 section {
@@ -31,8 +36,20 @@ img {
     margin: 1em;
 }
 
-#venice {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
+#veniceIMG {
+    float: right;
+}
+
+#omisIMG {
+    float: left;
+}
+
+#barcelonaIMG {
+    float: right;
+
+}
+
+footer {
+    text-align: center;
+    font-size: small;
 }
